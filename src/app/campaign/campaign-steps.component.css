@@ -1,0 +1,35 @@
+.divider{
+  border: 6px solid rgba(7, 7, 248, 0.877);
+  margin-right:15%;
+  margin-left: 15%;
+  border-radius: 4px;
+}
+
+.div-step1{
+  border: 6px solid orange;
+  margin-right:25%;
+  margin-left: 25%;
+  border-radius: 4px;
+}
+
+.div-step2{
+  border: 6px solid rgba(7, 7, 248, 0.877);
+  margin-right:25%;
+  margin-left: 25%;
+  border-radius: 4px;
+}
+p.lead{
+  font-weight: 450;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.0em;
+}
+p b{
+  line-height: 1.4rem;
+  font-size: 1.8rem;
+}
+h3{
+  font-size: 2.2rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}

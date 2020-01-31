@@ -1,0 +1,31 @@
+.btn-white{
+    border: 1px solid black;
+    color: orange;
+    padding: 8px;
+    background: white;
+    border-radius: 0;
+}
+
+.form input{
+    padding: 30px;
+}
+
+.checkSum {
+    border: 1px solid;
+    padding: 20px;
+}
+
+.checkSum h5{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.subBtn {
+    margin-top: 200px;
+}
+
+.subBtn .btn-success {
+    border-radius: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}

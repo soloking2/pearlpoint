@@ -1,0 +1,28 @@
+.my-cart{
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+.my-qty{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.my-cart hr{
+    margin-top: -20px;
+    border: 0.5px solid;
+}
+
+.myCart .cartBtn .btn-dark {
+    border-radius: 50%;
+}
+
+.cartBtn input[type="text"] {
+    border: none;
+    font-size: 20px;
+    width: 40px;
+}
+
+.myCart .btn {
+    border-radius: 0;
+}

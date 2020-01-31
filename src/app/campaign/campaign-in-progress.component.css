@@ -1,0 +1,51 @@
+.campaign-ongoing{
+  background: #bdc7f7;
+}
+.campaign h1{
+  padding-top: 50px;
+}
+.campaign p{
+  padding-bottom: 50px;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+img.ongoing{
+  width:100%;
+  height: 80%;
+}
+
+.divider{
+  border: 6px solid orange;
+  margin-right:35%;
+  margin-left: 35%;
+  border-radius: 4px;
+}
+
+.divider-partner{
+  border: 6px solid rgba(7, 7, 248, 0.877);
+  margin-right:40%;
+  margin-left: 40%;
+  border-radius: 4px;
+}
+
+.partner{
+  background: #2e242c;
+}
+
+.part h1{
+  padding-top: 50px;
+  font-size: 2.5rem;
+}
+.part p{
+  padding-bottom: 50px;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+img.part-in{
+  width:100%;
+  height: 80%;
+}

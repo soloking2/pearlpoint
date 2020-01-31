@@ -1,0 +1,61 @@
+<section class="myCart py-4">
+  <div class="container pt-4">
+    <div class="row mt-5">
+      <div class="col-md-8">
+        <h3>My Cart ({{cartItemCount}})</h3>
+      </div>
+      <div class="col-md-2">
+        <button class="btn btn-info">continue shopping</button>
+      </div>
+      <div class="col-md-2">
+          <button class="btn btn-primary" type="button" routerLink="/checkout">Checkout</button>
+        </div>
+    </div>
+    <div class="my-cart mt-4">
+      <div class="row mx-5 my-4">
+      <div class="col-md-6">
+        <h4>Items</h4>
+      </div>
+      <div class="col-md-4">
+          <h4>Quantity</h4>
+        </div>
+        <div class="col-md-2">
+            <h4>Total</h4>
+        </div>
+        </div>
+        <hr>
+    <div class="row" *ngFor="let prod of productAddedToCart; let q = index">
+      <div class="col-md-6">
+        <div class="row mx-5 my-4 my-qty">
+          <div class="col-md-5 py-3">
+            <img src="{{prod.ImageFile}}" alt="" width="150px;" height="130px;">
+          </div>
+          <div class="col-md-7 py-3">
+            <h5>{{prod.Name}}</h5>
+            <p>{{prod.Description}}</p>
+            <p>{{prod.UnitPrice}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 col-md-4 cartBtn mt-5 pt-5">
+        <div class="form-inline"><button type="button" (click)="onRemoveQuantity(prod)" class="btn btn-dark">-</button>
+        <input type="text" [(ngModel)]="prod.Quantity" (ngModelChange)="prod.Quantity=$event" class="form-control form-inline" id="count">
+        <button type="button" (click)="onAddQuantity(prod)" class="btn btn-dark">+</button>
+        </div>
+      </div>
+      <div class="col 2 col-md-2 mt-5 pt-5">
+        <h4>{{prod.UnitPrice * prod.Quantity}}</h4>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div class="col-md-9"></div>
+    <div class="col-md-3"><h4>Total: <b style="font-size: 1.8rem;">{{allTotal}}</b> PPT</h4></div>
+  </div>
+  <div class="row mt-3">
+    <div class="col-md-9"></div>
+    <div class="col-md-3"><button class="btn btn-success" type="button" routerLink="/checkout">Proceed to Checkout</button></div>
+  </div>
+  
+  </div>
+</section>

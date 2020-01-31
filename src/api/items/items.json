@@ -1,0 +1,90 @@
+[
+  {
+    "Category": "Electronics",
+    "Products": [
+    {
+    "Id": 1,
+    "Name": "KFC Chicken",
+    "releaseDate": "March 19, 2019",
+    "Description": "The best kind of chicken ",
+    "UnitPrice": 2500,
+    "ImageFile": "assets/shop/kfcpack.jfif",
+    "Quantity" : 10
+  },
+  {
+    "Id": 2,
+    "Name": "Zara Black - Men",
+    "releaseDate": "March 19, 2019",
+    "Description": "The clothes of Zara black for me ",
+    "UnitPrice": 10000,
+    "ImageFile": "assets/shop/menwear4.jpg",
+    "Quantity" : 10
+  },
+  {
+    "Id": 3,
+    "Name": "IPhone XR",
+    "releaseDate": "March 19, 2019",
+    "Description": "The latest IPhone in town",
+    "UnitPrice": 200000,
+    "ImageFile": "assets/shop/iphone.webp",
+    "Quantity" : 10
+  },
+  {
+    "Id": 4,
+    "Name": "Polystar Pv-gl Smart TV",
+    "releaseDate": "March 19, 2019",
+    "Description": "The best kind of TV ",
+    "UnitPrice": 350000,
+    "ImageFile": "assets/shop/polyatrtv.webp",
+    "Quantity" : 10
+  },
+  {
+    "Id": 5,
+    "Name": "LG 437L Fridge",
+    "releaseDate": "March 19, 2019",
+    "Description": "The kind of Fridge needed at home ",
+    "UnitPrice": 50000,
+    "ImageFile": "assets/shop/lgfridge.jpg",
+    "Quantity" : 10
+  },
+  {
+    "Id": 6,
+    "Name": "Hush Smiley Crew Neck",
+    "releaseDate": "March 19, 2019",
+    "Description": "Check the best clothes in town ",
+    "UnitPrice": 5000,
+    "ImageFile": "assets/shop/hush.webp",
+    "Quantity" : 10
+  },
+  {
+    "Id": 7,
+    "Name": "Home Theatre",
+    "releaseDate": "March 19, 2019",
+    "Description": "The theatre makes better noice ",
+    "UnitPrice": 10000,
+    "ImageFile": "assets/shop/hometheatre.webp",
+    "Quantity" : 10
+  },
+  {
+    "Id": 8,
+    "Name": "Meal Combo",
+    "releaseDate": "March 19, 2019",
+    "Description": "You can get meal combo from us",
+    "UnitPrice": 200000,
+    "ImageFile": "assets/shop/meal.png",
+    "Quantity" : 10
+  },
+  {
+    "Id": 9,
+    "Name": "Infinix Smartphone",
+    "releaseDate": "March 19, 2019",
+    "Description": "A durable and affordable phone",
+    "UnitPrice": 350000,
+    "ImageFile": "assets/shop/infinix.webp",
+    "Quantity" : 10
+  }
+]
+  }
+
+    
+]

@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.css';
+@import '~ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.css';
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css";
+

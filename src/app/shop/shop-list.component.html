@@ -1,0 +1,106 @@
+<div class="shop-display mt-4">
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-12 col-md-12">
+        <div class="my-5 text-center">
+          <h3 class="text-white text-left">
+            Holiday trip to the city of Dreams <br> Dubai
+          </h3>
+           <button class="btn btn-dark btn-outline-light mx-3 px-3">1, 000, 000 PPT</button>
+           <button class="btn btn-primary mx-3 px-3">ADD TO CART</button>
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+<section class="item-display">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-2 col-md-6"></div>
+      <div class="col-10 col-md-6 mt-4">
+          <form id="searchForm" class="form-inline float-right">
+              <div class="form-group"><input type="text" class="form-control" placeholder="Search Items" name="searchItems"></div>
+              <button class="btn btn-info"><i class="fa fa-search"></i></button>
+            </form>
+      </div>
+      <div class="col-2 col-md-2"></div>
+      <div class="col-1 col-md-1 filter-icon"><img src="../../assets/images/filter.png"></div>
+      <div class="col-2 col-md-2 filter"><h5>Filter By</h5></div>
+      <div class="col-4 col-md-4 search"><button class="btn btn-info">My Pearlpoints</button></div>
+
+    </div>
+    <div class="row">
+      <div class="col-2 col-md-2">
+        <h3 class="text-dark">Categories</h3>
+        <div class="list">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Travels</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Electronics</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Meals</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#" class="nav-link">Clothes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Airtime Purchase</a>
+                      </li>
+              </ul>
+        </div>
+      </div>
+      <div class="col-10 col-md-10">
+        <div class="show-item" *ngIf="allItems && allItems.length">
+           <div *ngFor="let alert of alerts">
+            <div class="alert alert-success alert-dismissible fade show">
+                <button type="button" [type]="alert.type" (close)="closeAlert(alert)" data-dismiss="alert" class="close">&times;</button>
+                <strong>{{alert.message}}</strong>
+              </div>
+        </div>
+          <div class="row" *ngFor="let category of allItems">
+            <div class="col-12 col-md-12">
+                <h3 class="modal-header" style="color: cornflowerblue;">{{category.Category}}</h3>
+            </div>
+          <div class="col-12 col-md-4" *ngFor="let item of category.Products">
+            <div class="thumb-nail text-center">
+                <img [src]="item.ImageFile" [title]="item.Name" [style.width.%]="imageWidth" [style.height.%]="imageHeight">
+                <div class="row desc text-left">
+                  <div class="col-12 col-md-12">
+                      <h4><a>{{item.Name}}</a></h4>
+                      <p>{{item.Description}}</p>
+                      <div class="row">
+                          <div class="col-5 col-md-6">
+                              <h5 class="text-dark">{{item.UnitPrice}}</h5>
+                            </div>
+                            <div class="col-7 col-md-6">
+                              <button class="btn btn-info" (click)="onAddCart(item)">Add To Cart</button>
+                            </div>
+                      </div>
+
+                  </div>
+                </div>
+            </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="nt-btn">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-8 col-md-8"></div>
+      <div class="col-2 col-md-2">
+        <button class="btn btn-light">Previous</button>
+      </div>
+      <div class="col-2 col-md-2">
+          <button class="btn btn-light">Next</button>
+        </div>
+    </div>
+  </div>
+</section>

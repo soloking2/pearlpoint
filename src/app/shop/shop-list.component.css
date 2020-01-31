@@ -1,0 +1,79 @@
+.shop-display{
+  background: url('../../assets/images/shop/holidayindubai.jpg') no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.shop-display h3{
+  margin-top: 20%;
+  margin-bottom: 40px;
+  font-size: 3.3rem;
+}
+
+.shop-display button{
+  border-radius: 20px;
+  margin-bottom: 60px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.shop-display .btn-dark {
+  border: 3px solid;
+}
+
+.item-display input[type="text"]{
+  border-radius: 0;
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+}
+.item-display{
+  background: rgb(236, 235, 235);
+}
+.item-display .btn-info{
+  border-radius: 0;
+  padding: 6.5px;
+}
+
+.show-item{
+  background: #fff;
+  padding: 35px;
+}
+
+.thumb-nail{
+  box-shadow: 5px 5px 4px #acaaaa;
+  border-radius: 5px;
+  margin: 5px 5px;
+  padding: 35px 25px;
+  height: 80%;
+  width: 100%;
+}
+
+.desc h4{
+  font-size: 1.0rem;
+  font-weight: bold;
+}
+.desc p{
+  font-size: 0.8rem;
+}
+
+.desc .btn-info{
+  border-radius: 10%;
+  font-size: 0.8rem;
+}
+
+.nt-btn{
+  background: rgb(236, 235, 235);
+  padding: 40px;
+}
+
+.item-display .search {
+  margin-left: -100px;
+}
+.item-display .search .btn-info {
+  border-radius: 20px;
+  padding: 5px;
+}
+.item-display .filter-icon img{
+  width: 60%;
+  height: 60%;
+}
